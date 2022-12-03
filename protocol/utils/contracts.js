@@ -22,7 +22,6 @@ async function getPrice() {
     return await ethers.getContractAt('BeanstalkPrice', PRICE)
 }
 
-
 async function getBeanMetapool() {
     return await ethers.getContractAt('ICurvePool', BEAN_3_CURVE);
 }
